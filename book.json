@@ -1,0 +1,35 @@
+{
+	"title":"编写gitbook电子书教程",
+	"descrition":"gitbook电子书教程",
+	"author":"Dirk.Sun",
+	"language":"zh-hans",
+	"root":".",
+
+	"plugins": [
+		"donate",
+		"edit-link",
+		"github-buttons"
+	],
+    "pluginsConfig": {
+        "donate": {
+          "wechat": "例：/images/qr.png",
+          "alipay": "http://blog.willin.wang/static/images/qr.png",
+          "title": "",
+          "button": "打赏",
+          "alipayText": "支付宝",
+          "wechatText": "微信"
+        },
+        "edit-link": {
+            "base": "https://github.com/USER/REPO/edit/BRANCH/path/to/book",
+            "label": "编辑子页"
+        },
+        "github-buttons": {
+	      "buttons": [{
+	        "user": "azu",
+	        "repo": "JavaScript-Plugin-Architecture",
+	        "type": "star",
+	        "size": "small"
+	      }]
+	    }
+    }
+}
